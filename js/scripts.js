@@ -1,6 +1,6 @@
 var a = prompt('Podaj wartosc a:'),
 	b = prompt('Podaj wartosc b:'),
-	value= (a * a) + (2 * a * b) - (b * b);
+	value = (a * a) + (2 * a * b) - (b * b);
 
 if (isNaN(value)) {
 	console.log('Nieprawidlowa wartosc');
