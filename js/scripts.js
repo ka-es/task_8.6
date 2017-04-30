@@ -2,7 +2,7 @@ var a = prompt('Podaj wartosc a:'),
 	b = prompt('Podaj wartosc b:');
 
 if (isNaN(a)) {
-	console.log('Nieprawidlowa wartosc');
+	console.log('Nieprawidlowa wartosc ddd');
 	alert('Nieprawidlowa wartosc');
 } else if (isNaN(b)) {
 	console.log('Nieprawidlowa wartosc');
