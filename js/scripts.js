@@ -3,10 +3,10 @@ var a = prompt('Podaj wartosc a:'),
 
 if (isNaN(a)) {
 	console.log('Nieprawidlowa wartosc');
-	alert('Nieprawidlowa wartosc a');
+	alert('Nieprawidlowa wartosc');
 } else if (isNaN(b)) {
 	console.log('Nieprawidlowa wartosc');
-	alert('Nieprawidlowa wartosc b');
+	alert('Nieprawidlowa wartosc');
 } else {
 
 	var value= (a * a) + (2 * a * b) - (b * b);
