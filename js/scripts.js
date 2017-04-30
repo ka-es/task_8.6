@@ -1,16 +1,11 @@
 var a = prompt('Podaj wartosc a:'),
-	b = prompt('Podaj wartosc b:');
+	b = prompt('Podaj wartosc b:'),
+	value= (a * a) + (2 * a * b) - (b * b);
 
-if (isNaN(a)) {
-	console.log('Nieprawidlowa wartosc');
-	alert('Nieprawidlowa wartosc');
-} else if (isNaN(b)) {
+if (isNaN(value)) {
 	console.log('Nieprawidlowa wartosc');
 	alert('Nieprawidlowa wartosc');
 } else {
-
-	var value= (a * a) + (2 * a * b) - (b * b);
-
 	console.log('Wynik dzialania (a * a) + (2 * a * b) - (b * b) wynosi: ' + value);
 
 	alert('Wynik dzialania (a * a) + (2 * a * b) - (b * b) wynosi: ' + value)
