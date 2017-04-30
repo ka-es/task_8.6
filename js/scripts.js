@@ -2,10 +2,10 @@ var a = prompt('Podaj wartosc a:'),
 	b = prompt('Podaj wartosc b:');
 
 if (isNaN(a)) {
-	console.log('Nieprawidlowa wartosc a');
+	console.log('Nieprawidlowa wartosc');
 	alert('Nieprawidlowa wartosc a');
 } else if (isNaN(b)) {
-	console.log('Nieprawidlowa wartosc b');
+	console.log('Nieprawidlowa wartosc');
 	alert('Nieprawidlowa wartosc b');
 } else {
 
